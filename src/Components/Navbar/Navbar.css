@@ -11,13 +11,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem; 
+    padding: 1rem 1.5rem; 
     background-color: rgb(1, 1, 54); 
     color: brown;
     position: sticky;
     top: 0;
     width: 100%;
     gap: 1rem;
+    box-sizing: border-box;
 }
 
 .logo-container {
@@ -75,7 +76,7 @@ button:hover {
     background-color: #1558b0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     .navbar {
         width: 100%;
     }
@@ -93,7 +94,44 @@ button:hover {
     }
 
     button {
-        width: 100px;
-        height: 70px;
+        /* width: 100px;
+        height: 70px; */
+        margin-right: 7rem;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar {
+        width: 100vw;
+    }
+    .navLinks {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .navLinks ul {
+        list-style: none;
+        display: flex;
+        gap: 0.7rem;
+    }
+
+    button {
+        /* width: 100px;
+        height: 70px; */
+        margin-right: 7rem;
+        margin-left: auto;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .navbar {
+        width: 100%;
+
+        .logo-container .logo-text{
+            display: none;
+        }
     }
 }
