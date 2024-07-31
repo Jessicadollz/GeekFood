@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card .cardIcon {
+    font-size: 3rem;
+}
+
+.card .cardContent {
+    font-size: 1rem;
+}

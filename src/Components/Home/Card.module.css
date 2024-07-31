@@ -1,0 +1,46 @@
+.card {
+    background-color: #f9fafb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center; */
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+
+.authorDes h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #333;
+}
+
+.authorDes p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #666;
+} 
