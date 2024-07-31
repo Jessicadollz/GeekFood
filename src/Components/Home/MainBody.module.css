@@ -110,3 +110,22 @@ Button {
     padding: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media screen and (max-width: 750px){
+    .mainContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainDes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}

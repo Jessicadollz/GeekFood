@@ -74,3 +74,26 @@ button {
 button:hover {
     background-color: #1558b0;
 }
+
+@media screen and (max-width: 750px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .navLinks {
+        display: flex;
+        gap: 0.2rem;
+        flex-wrap: wrap;
+    }
+
+    .navLinks ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    button {
+        width: 100px;
+        height: 70px;
+    }
+}
